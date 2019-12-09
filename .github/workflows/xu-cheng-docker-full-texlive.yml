@@ -16,6 +16,7 @@ jobs:
           # The root LaTeX file to be compiled
           root_file: main.tex
       - name: Compile file in test/
+        uses: xu-cheng/latex-action@1.2.0
         with:
           # The root LaTeX file to be compiled
           root_file: main-test.tex
