@@ -16,10 +16,10 @@ jobs:
           # The root LaTeX file to be compiled
           root_file: main.tex
           # The working directory for the LaTeX engine
-          working_directory: test/
+#          working_directory:
           # The LaTeX engine to be invoked
-          compiler: # optional, default is latexmk
+#          compiler: # optional, default is latexmk
           # Extra arguments to be passed to the LaTeX engine
-          args: # optional, default is -pdf -file-line-error -interaction=nonstopmode
+#          args: # optional, default is -pdf -file-line-error -interaction=nonstopmode
           # Install extra packages by apk
-          extra_system_packages: # optional
+#          extra_system_packages: # optional
